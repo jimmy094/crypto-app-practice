@@ -6,16 +6,19 @@
     
     height: 350px;
     align-items: center;
+    border-radius: 50px;
+
 
     
 }
 
-h1 {
+.body-container > h1 {
     /* display: flex;
     justify-content: flex-start;
     margin-left: 30px; */
     font-family: 'PT Sans', sans-serif;
     color: white;
+    text-shadow: 2px 1px 9px #DE18ED;
 }
 
 h2 {
@@ -23,6 +26,7 @@ h2 {
     margin-bottom: 30px;
     font-family: 'PT Sans', sans-serif;
     color: white;
+    text-shadow: 2px 1px 9px #DE18ED;
 }
 
 .learn-btn {
