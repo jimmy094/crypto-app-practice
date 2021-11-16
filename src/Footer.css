@@ -21,7 +21,9 @@ i {
     width: 300px;
     height: 250px;
     margin-bottom: 100px;
-    box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px; */
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
 }
 
 p {
@@ -29,3 +31,23 @@ p {
 }
 
 
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  
+    40% {
+      -webkit-transform: translateY(-20px);
+      transform: translateY(-20px);
+    }
+  
+    80% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+  }
+
+  .footer-items:hover {
+    animation: bounce 0.7s;
+  }
