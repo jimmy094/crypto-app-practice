@@ -1,0 +1,41 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+a {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 20px ;
+    color: black;
+}
+
+
+
+.navbar {
+    margin-right: 40px;
+    
+}
+
+a {
+    color: white;
+    font-size: 17px;
+}
+
+.logo {
+    display: flex;
+    
+    font-size: 25px;
+    align-items: center;
+    margin-left: 50px;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 25px;
+    margin-left: 10px;
+}
