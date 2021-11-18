@@ -6,6 +6,7 @@
 }
 
 a {
+    
     font-family: 'PT Sans', sans-serif;
     font-weight: bolder;
     text-decoration: none;
@@ -22,6 +23,7 @@ a {
 }
 
 a {
+    
     color: white;
     font-size: 17px;
 }
@@ -39,4 +41,15 @@ a {
 h1 {
     font-size: 25px;
     margin-left: 10px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    
+}
+
+.sign {
+    font-size: 30px;
+    margin-bottom: 5px;
 }

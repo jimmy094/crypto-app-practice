@@ -1,22 +1,22 @@
 import React from 'react'
 import './Priceitem.css'
 //create list for each crypto
-function Priceitem(props) {
+function Priceitem({title, price, desc, blockchain}) {
     return (
         <div className='price-item-container'>
             
-            {/* <li> 
-            <p>{props.title}</p>
-            </li>
-            <li>
-            <img src={props.image}/>
-            </li>
-            <li>
-            <p className='desc'>{props.desc}</p>
-            </li>
-            <li>
-            <p className='price'>{props.price}</p>
-            </li> */}
+                <div className='crypto-item'>
+                    <p>{title}</p>
+                </div>
+                <div className='crypto-item'>
+                    <p>{price}</p>
+                </div>
+                <div className='crypto-item'>
+                    <p>{blockchain}</p>
+                </div>
+                <div className='crypto-item'>
+                    <p>{desc}</p>
+                </div>
             
         </div>
     )

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Prices.css'
 import Priceitem from './Priceitem.js'
+import Header from './Header'
 
 
 const cryptos = [
@@ -49,6 +50,7 @@ const cryptos = [
 function Prices() {
     return (
         <div className='prices-container'>
+            <Header />
             <h1 className='prices'>Prices</h1>
             {cryptos.map((crypto) => (
                 <Priceitem 
